@@ -1,0 +1,32 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.tarjetas {
+  text-align: left;
+  background-color: #17a2b8;
+  color: #ffffff;
+}
+
+.centrado {
+  width: 75%;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .card-img-top {
+    height: 10em;
+  }
+}
+
+@media (min-width: 992px) {
+  .card-img-top {
+    height: 15em;
+  }
+}
+
+@media (min-width: 1200px) {
+  .card-img-top {
+    height: 18em;
+  }
+}
